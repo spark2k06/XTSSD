@@ -1,0 +1,26 @@
+GAL16V8   ;  Works with GAL16V8B and ATF16V8B
+ISAXTSD   ;  Micro XTSD ISA 8 bits, Production version 1
+
+A4	A5	A6	A7	A8	A9	A15	A14	A13	GND
+A16 ROMCS A17 A18	A19 AEN	ROMEN	IDECS	NC	VCC
+
+/ROMCS = /ROMEN * A19 * A18 * /A17 * A16 * /A15 * /A14 * /A13  
+/IDECS = /AEN * A9 * A8 * /A7 * /A6 * /A5 * /A4
+
+
+
+DESCRIPTION
+
+ROM I/O Port
+------------
+
+/A17 * A16 * /A15 * /A14 * /A13 = D0000h [Default]
+/A17 * /A16 * A15 * /A14 * /A13 = C8000h
+/A17 * /A16 * A15 * /A14 *  A13 = CA000h
+
+IDE I/O Port
+------------
+
+A9 * A8 * /A7 * /A6 * /A5 = 300h [Default]
+A9 * A8 * /A7 * /A6 * A5 = 320h
+A9 * A8 * /A7 * A6 * /A5 = 340h

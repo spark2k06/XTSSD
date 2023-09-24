@@ -1,0 +1,18 @@
+Id;Identificador;Paquete;Cantidad;Identificacion
+1;BUS1;ISA-8BIT-XT-IDE;1;Bus_ISA_8bit
+2;J3;PinHeader_2x05_P2.54mm_Vertical;1;IRQ
+3;C5,C3,C4,C8;C_0805_2012Metric;4;104 (100nF)
+4;U11;DIP-28_W15.24mm_Socket;1;28C64
+5;U7,U5;SOIC-14_3.9x8.7mm_P1.27mm;2;HCT04
+6;C1,C2;C_0805_2012Metric;2;106 (10uF)
+7;U2,U3;SO-20_5.3x12.6mm_P1.27mm;2;HCT573
+8;J2;PinSocket_2x22_P2.00mm_Horizontal;1;SD_Adapter
+9;R5,R4;R_0805_2012Metric;2;10k
+10;U6;SOIC-14_3.9x8.7mm_P1.27mm;1;HCT32
+11;R2;R_0805_2012Metric;1;1k
+12;JP3;PinHeader_1x02_P2.54mm_Vertical;1;ROM Enable
+13;U10;SOIC-16_3.9x9.9mm_P1.27mm;1;AHCT138
+14;U4,U1;TSSOP-20_4.4x6.5mm_P0.65mm;2;HCT245
+15;U8;DIP-20_W7.62mm_Socket;1;ATF16V8B
+16;D2;PinHeader_1x02_P2.54mm_Horizontal;1;LED
+17;JP2;PinHeader_1x02_P2.54mm_Vertical;1;ROM Write Enable
